@@ -1,0 +1,114 @@
+
+body{
+    background: #1c0a3b;
+    
+}
+.content{
+    overflow: hidden;
+    max-height:100%;
+    margin: 0 auto;
+}
+.myalgori{
+    position: relative;
+    height:600px;
+    overflow-y: auto;
+    padding: 10px 30px 20px 30px;
+    background: #fefef1;
+    border: solid #009999 10px;
+    box-shadow: inset 0 32px 32px -32px rgb(0 0 0 / 5%),
+                inset 0 32px 32px -32px rgb(0 0 0 / 5%);
+}
+#user{
+    position:relative;
+    color:#f7f7f7;
+    font-size: 35px;
+    padding-right:5px;
+    padding-bottom: 0px;
+    top: 10px;
+}
+.hide-left button{
+  color: #fff;
+  position:absolute;
+  bottom: 200px;
+}
+.hide-right{
+    position:absolute;
+    bottom: 200px;
+    right: 0px;
+}
+.hide-right button{
+    background-color:#de8ed0;
+    color: #fff;
+    float:right;
+}
+.hide-right button:hover{
+    background-color:#de8ed0;
+}
+ #controls{
+    position: relative;
+    right: 0px;
+    left: 30%;
+    
+}
+.progress{
+    position: relative;
+    right: 0px;
+    left: 0%;
+    width: 400px;
+} 
+#inputdata{
+    background: none;
+    border: solid 2px;
+    width: 50%;
+}
+#button-addon2{
+    color: #fff;
+    background-color: #1c0a3b;
+    margin-top: 0px;
+    margin-left: 5px;
+    
+}
+#button-addon2:hover{
+    background-color:  #fefef1;
+    color:#1c0a3b;
+}
+#chart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 400px;
+    width: 900;
+    position: relative;
+    bottom:200px;
+}
+.bar {
+    width: 20px;
+    margin-right: 5px;
+    background-color:#9b82c7;
+    color:black
+}
+div.bar{
+    text-align: center;
+}
+.box{
+    display: inline;
+    position:absolute;
+    top: 120px;
+    /* right: 0px; */
+    left: 75%;
+    border: solid #009999 1px;
+    background-color: #d2d5d5;
+}
+.codetrace{
+    padding: 5px;
+}
+.explain{
+    display: inline;
+    position:absolute;
+    top: 45px;
+    /* right: 0px; */
+    left: 75%;
+    border: solid #009999 1px;
+    background-color: #5BC0DE;
+    width: 320.86px;
+}
